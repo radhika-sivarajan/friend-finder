@@ -1,0 +1,25 @@
+{
+  "name": "friend_finder",
+  "version": "1.0.0",
+  "description": "Compatibility-based \"FriendFinder\" application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radhika-sivarajan/Friend_Finder.git"
+  },
+  "author": "radhika-sivarajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radhika-sivarajan/Friend_Finder/issues"
+  },
+  "homepage": "https://github.com/radhika-sivarajan/Friend_Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+}
