@@ -1,3 +1,12 @@
+$('.user-detail').on("input", function() {
+    var is_value = $(this).val();
+    if(is_value.length === 0){             
+        $(this).next().text("This field is required");
+    }else{
+        $(this).next().text("");
+    }
+});
+
 $("#submit").on("click", function(event) {
     event.preventDefault();
 
