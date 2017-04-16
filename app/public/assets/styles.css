@@ -7,6 +7,10 @@ div .header {
     padding: 40px 30px;
 }
 
+div .survey-header {
+    padding-top: 30px;
+}
+
 .logo {
     filter: drop-shadow(5px 5px 5px #222);
 }
@@ -22,6 +26,7 @@ div .header {
     background: linear-gradient(to right, red, black);
     border: none;
     border-radius: 1px 35px;
+    padding: 10px;
 }
 
 footer {
