@@ -1,6 +1,6 @@
 var friends = [{
-    "name": "Ahmed",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name": "Sam",
+    "photo": "http://dailynewsdig.com/wp-content/uploads/2014/10/10-Hollywood-Actors-Who-Hate-Watching-Their-Own-Movies-6.jpg",
     "scores": [
         4,
         1,
@@ -14,8 +14,8 @@ var friends = [{
         4
     ]
 }, {
-    "name": "Annie",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name": "Benedict",
+    "photo": "http://media.hollywood.com/images/638x425/1883655.jpg",
     "scores": [
         2,
         1,
@@ -30,7 +30,7 @@ var friends = [{
     ]
 }, {
     "name": "Alex",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo": "http://inminutes.com/wp-content/uploads/2015/01/Top-Ten-Most-Handsome-Actors-In-Hollywood-2014-9.jpg",
     "scores": [
         5,
         2,
@@ -44,8 +44,8 @@ var friends = [{
         1
     ]
 }, {
-    "name": "Beena",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name": "Jennifer",
+    "photo": "http://starsunfolded.1ygkv60km.netdna-cdn.com/wp-content/uploads/2016/04/Jennifer-Winget.jpg",
     "scores": [
         5,
         1,
@@ -59,8 +59,8 @@ var friends = [{
         2
     ]
 }, {
-    "name": "Rahul",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name": "Tom",
+    "photo": "http://top10for.com/wp-content/uploads/2015/08/Tom-Cruise-a-richest-actor-in-Hollywood.jpg?2698f2",
     "scores": [
         1,
         3,
