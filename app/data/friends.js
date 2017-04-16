@@ -1,19 +1,4 @@
 var friends = [{
-    "name": "Sam",
-    "photo": "http://dailynewsdig.com/wp-content/uploads/2014/10/10-Hollywood-Actors-Who-Hate-Watching-Their-Own-Movies-6.jpg",
-    "scores": [
-        4,
-        1,
-        4,
-        4,
-        5,
-        1,
-        2,
-        5,
-        4,
-        4
-    ]
-}, {
     "name": "Benedict",
     "photo": "http://media.hollywood.com/images/638x425/1883655.jpg",
     "scores": [
@@ -27,6 +12,21 @@ var friends = [{
         5,
         1,
         1
+    ]
+}, {
+    "name": "Sam",
+    "photo": "http://dailynewsdig.com/wp-content/uploads/2014/10/10-Hollywood-Actors-Who-Hate-Watching-Their-Own-Movies-6.jpg",
+    "scores": [
+        4,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        4
     ]
 }, {
     "name": "Alex",
