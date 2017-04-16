@@ -1,25 +1,40 @@
-.bg-img { 
+.bg-img {
     background: url("background.jpeg");
     background-size: cover;
 }
 
 div .header {
-	padding: 40px 30px;
+    padding: 40px 30px;
 }
 
 .logo {
-	filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 .row h4 {
-   text-shadow: 1px 1px 2px black, 0 0 1em grey, 0 0 0.2em grey;
-   color: white;
-   font-family: Georgia, Times, "Times New Roman", serif;
+    text-shadow: 1px 1px 2px black, 0 0 1em grey, 0 0 0.2em grey;
+    color: white;
+    font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .btn-custom {
-	background: red;
-	background: linear-gradient(to right, red, black);
-	border: none;
-	border-radius: 1px 35px;
+    background: red;
+    background: linear-gradient(to right, red, black);
+    border: none;
+    border-radius: 1px 35px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
 }
