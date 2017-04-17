@@ -1,7 +1,7 @@
 var friedsList = require("../data/friends");
 
-Array.prototype.minArray = function () {
-	return Math.min.apply(Math, this);
+Array.prototype.minArray = function() {
+    return Math.min.apply(Math, this);
 };
 
 module.exports = function(app) {
@@ -23,8 +23,8 @@ module.exports = function(app) {
             var totalDifference = 0;
 
             for (var j = 0; j < comparingFriend.scores.length; j++) {
-            	var difference = Math.abs(comparingFriend.scores[j] - userData.scores[j]);
-            	totalDifference += difference;
+                var difference = Math.abs(comparingFriend.scores[j] - userData.scores[j]);
+                totalDifference += difference;
             }
             differenceArray.push(totalDifference);
         }
