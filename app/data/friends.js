@@ -1,6 +1,6 @@
 var friends = [{
-    "name": "Benedict",
-    "photo": "http://media.hollywood.com/images/638x425/1883655.jpg",
+    "name": "Benedict Cumberbatch",
+    "photo": "http://www-images.theonering.org/torwp/wp-content/uploads/2012/04/sherlock_promo.jpg",
     "scores": [
         2,
         1,
@@ -30,7 +30,7 @@ var friends = [{
     ]
 }, {
     "name": "Zac Efron",
-    "photo": "http://dailynewsdig.com/wp-content/uploads/2014/10/10-Hollywood-Actors-Who-Hate-Watching-Their-Own-Movies-6.jpg",
+    "photo": "https://yt3.ggpht.com/-SgTyjHPxt5c/AAAAAAAAAAI/AAAAAAAAAAA/Slw8eE9lXYc/s900-c-k-no-rj-c0xffffff/photo.jpg",
     "scores": [
         4,
         1,
@@ -44,7 +44,7 @@ var friends = [{
         4
     ]
 }, {
-    "name": "Alex Mathew",
+    "name": "Ryan Gosling",
     "photo": "http://inminutes.com/wp-content/uploads/2015/01/Top-Ten-Most-Handsome-Actors-In-Hollywood-2014-9.jpg",
     "scores": [
         5,
@@ -135,7 +135,7 @@ var friends = [{
     ]
 }, {
     "name": "Rachel Mcdams",
-    "photo": "http://vignette4.wikia.nocookie.net/rachelmcadams/images/d/da/Tumblr_mdy6vaRwrC1qa9nc2o1_500.jpg",
+    "photo": "http://i41.tinypic.com/2v9exac.jpg",
     "scores": [
         1,
         1,
