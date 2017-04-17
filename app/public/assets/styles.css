@@ -29,6 +29,25 @@ div .survey-header {
     padding: 10px;
 }
 
+small.form-text {
+    color: red;
+}
+
+#match-image {
+    max-height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.match-name {
+    font-size: 30px;
+    font-weight: 700;
+    color: #e31661;
+    font-family: monospace;
+}
+
 footer {
     position: absolute;
     bottom: 0;
