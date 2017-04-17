@@ -69,10 +69,25 @@ small.form-text {
     font-family: 'Baloo Paaji', cursive;
 }
 
+.link {
+    padding-top: 30px;
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 footer {
+    color: #eee;
+}
+
+.home-footer {
     position: absolute;
-    bottom: 0;
-    right: 10px;
+    bottom: 0px;
+    left: 30px;
 }
 
 a {
