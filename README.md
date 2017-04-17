@@ -17,4 +17,15 @@ npm packages
 Run Friend Finder node app in local machine using following command:
 
 	node server.js
+    
+## Screenshots
+
+Home page
+
+![home-page](/screenshots/home-page.png?raw=true)
+
+Survey page
+
+![survey-page](/screenshots/survey-page.png?raw=true)
+
 
