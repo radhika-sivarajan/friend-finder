@@ -24,7 +24,7 @@ $("#submit").on("click", function(event) {
             $("#photo-url").next().text("This field is required");
         }
         $("#modal-title").text("Incomplete form");
-        $("#match-name").text("Please fill in all fields. 😦").css({ "color": "red" });
+        $("#match-name").text("Please fill in all fields. 😦");
         $("#match-image").hide();
     } else {
         var userData = {
@@ -42,7 +42,7 @@ $("#submit").on("click", function(event) {
 
             $("#modal-title").text("Hi \"" + userData.name + "\" your match 👇🏼");
             $("#match-image").show().attr({ "src": data.image });
-            $("#match-name").text(data.name).attr({ "class": "match-name" });
+            $("#match-name").text(data.name);
 
             // Clear form after submission
             $('#survey-form')[0].reset();
