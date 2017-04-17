@@ -1,3 +1,3 @@
 <?php 
-	include_once("server.js");
+	include_once("/app/public/home.html");
 ?>
