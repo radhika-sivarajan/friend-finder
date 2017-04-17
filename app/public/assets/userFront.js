@@ -37,15 +37,15 @@ $("#submit").on("click", function(event) {
                 $("#question-9").val().trim(), $("#question-10").val().trim()
             ]
         };
-        console.log(userData);
+
         $.post("/api/friends", userData, function(data) {
 
-            $("#modal-title").text("Your match");
+            $("#modal-title").text("Hi \"" + userData.name + "\" your match 👇🏼");
+            $("#match-image").show().attr({ "src": data.image });
             $("#match-name").text(data.name).attr({ "class": "match-name" });
-            $("#match-image").show().attr({ "src": data.image});
 
             // Clear form after submission
-            // $('#survey-form')[0].reset();
+            $('#survey-form')[0].reset();
         });
     }
 });
