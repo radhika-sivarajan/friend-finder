@@ -17,6 +17,7 @@ npm packages
 To run Friend Finder app in the local machine, Type following command in terminal inside the directory.
 	
     node server.js
+    
 Then run below adress on browser.
 
 	localhost:3000
