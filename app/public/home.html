@@ -5,24 +5,19 @@
     <meta charset="utf-8">
     <title>Friend finder</title>
 
+    <!--Bootstrap CDN and CSS file link-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="public/assets/styles.css">
-
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
 </head>
 
 <body class="bg-img">
     <div class="container-fluid text-center">
         <div class="row header">
-            <img src="public/assets/logo.png" alt="Friend finder" class="logo">
+            <img src="assets/logo.png" alt="Friend finder" class="logo">
         </div>
         <div class="row">
             <h4>Answer a few basic questions. Then find the friend with the greatest compatibility!</h4><br>
-            <a href="/survey">
-                <button type="button" class="btn btn-lg btn-primary btn-custom">
-                    <h5><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Go to Survey&nbsp;</h5>
-                </button>
-            </a>
+            <a href="/survey"><button type="button" class="btn btn-lg btn-primary btn-custom"><h5><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Go to Survey&nbsp;</h5></button></a>
         </div>
         <div class="row link">
             <p><a href="/api/friends" target="_blank">API All friends</a></p>
@@ -31,6 +26,9 @@
     <footer class="row text-center home-footer">
         <p>Copyright &copy; 2017 Radhika Sivarajan</p>
     </footer>
+
+    <!--jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </body>
 
 </html>

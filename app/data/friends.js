@@ -104,21 +104,6 @@ var friends = [{
         4
     ]
 }, {
-    "name": "Will Smith",
-    "photo": "http://www.strongestinworld.com/wp-content/uploads/2016/09/Will-Smith.jpg",
-    "scores": [
-        4,
-        2,
-        2,
-        2,
-        5,
-        3,
-        3,
-        3,
-        5,
-        5
-    ]
-}, {
     "name": "Mustafa Burmawalla",
     "photo": "http://youngsterchoice.com/wp-content/uploads/2017/03/Mustafa-Burmawalla-Wiki.jpg",
     "scores": [

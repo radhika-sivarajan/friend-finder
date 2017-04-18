@@ -18,7 +18,7 @@ To run Friend Finder app in the local machine, Type following command in termina
 
 	node server.js
     
-Then run below adress on browser.
+Then run below address on browser.
 	
 	localhost:3000
 
