@@ -14,7 +14,7 @@ $("#submit").on("click", function(event) {
     var userName = $("#user-name").val().trim();
     var userImageURL = $("#photo-url").val().trim();
 
-    // If any field is not filled show message
+    // Validation: If any field is not filled show message
     if (!userName || !userImageURL ||
         ($("#question-2").val()) === null || ($("#question-2").val()) === null ||
         ($("#question-3").val()) === null || ($("#question-4").val()) === null ||
@@ -29,7 +29,7 @@ $("#submit").on("click", function(event) {
         $("#match-image").hide();
     } else {
 
-        // Get user data
+        // Get user data and create an object with that.
         var userData = {
             name: userName,
             photo: userImageURL,
@@ -41,13 +41,13 @@ $("#submit").on("click", function(event) {
             ]
         };
 
-        // Send this user data to server and it give a response ie. compactible friend data.
+        // Send this user data to server and give a response ie. compactible friend data.
         $.post("/api/friends", userData, function(friendData) {
             $("#modal-title").text("Hi \"" + userData.name + "\" your match 👇🏼");
             $("#match-image").show().attr({ "src": friendData.image });
             $("#match-name").text(friendData.name);
 
-            // Clear form after submission
+            // Clear the form after submission
             $('#survey-form')[0].reset();
         });
     }

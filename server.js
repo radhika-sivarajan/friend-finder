@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
-// Serving static files in Express (path of static file sfolder)
+// Serving static files in Express (path of static files folder)
 app.use(express.static('app/public'));
 
 // The below points our server to a series of "route" files.
