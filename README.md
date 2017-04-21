@@ -22,7 +22,6 @@ Then run below address on browser.
 	
 	localhost:3000
 
-    
 ## Screenshots
 
 Home page
