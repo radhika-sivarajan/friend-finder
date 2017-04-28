@@ -1,5 +1,5 @@
 // Load data, these data sources hold arrays of information on friends.
-var friedsList = require("../data/friends");
+var friendsList = require("../data/friends");
 
 // Function to find the smallest element in an array
 Array.prototype.minArray = function() {
@@ -9,7 +9,7 @@ Array.prototype.minArray = function() {
 // Routing
 module.exports = function(app) {
     app.get("/api/friends", function(req, res) {
-        res.json(friedsList);
+        res.json(friendsList);
     });
 
     app.post("/api/friends", function(req, res) {
@@ -21,8 +21,8 @@ module.exports = function(app) {
 
         // Take friend's score array then get difference against user score array ---
         // --- and add these differences. Push it to the 'differenceArray'.
-        for (var i = 0; i < friedsList.length; i++) {
-            var comparingFriend = friedsList[i];
+        for (var i = 0; i < friendsList.length; i++) {
+            var comparingFriend = friendsList[i];
             var totalDifference = 0;
             for (var j = 0; j < comparingFriend.scores.length; j++) {
                 var difference = Math.abs(comparingFriend.scores[j] - userData.scores[j]);
@@ -35,8 +35,8 @@ module.exports = function(app) {
         // --- and set as index of compatible friend get name, image url of the friend.
         var minDifference = differenceArray.minArray();
         var bestFriendIndex = differenceArray.indexOf(minDifference);
-        compatibleFriend.name = friedsList[bestFriendIndex].name;
-        compatibleFriend.image = friedsList[bestFriendIndex].photo;
+        compatibleFriend.name = friendsList[bestFriendIndex].name;
+        compatibleFriend.image = friendsList[bestFriendIndex].photo;
 
         res.json(compatibleFriend);
     });
